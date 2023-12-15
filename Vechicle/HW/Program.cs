@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using HW;
+
+IVechicle vechicle = new Car();
+vechicle.Move();
+
+vechicle = new Truck();
+vechicle.Move();
+
+vechicle = new Ship();
+vechicle.Move();
